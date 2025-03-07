@@ -20,6 +20,7 @@ $ GIT CONFIG --GLOBAL USER.NAME "MONU114"
 $ GIT CONFIG --GOLBAL USER.EMAIL "MONISHY56@GMAIL.COM"
 
 DAY 2 Friday 7-03-25
+
 -> Arithematic Operator: + - * / %
 -> All are binary operators
 -> I/P are numbers
@@ -29,4 +30,6 @@ DAY 2 Friday 7-03-25
 ->The calculation to happen the, user/programmer given the infix expression must be converted to postfix.
 the operators have different hierarchy
 
+Relational Operator: > < == != >= <=
 
+Logical operators: & && | || !
