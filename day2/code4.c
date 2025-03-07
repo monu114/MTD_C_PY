@@ -1,11 +1,14 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+
+int main() 
 {
-    int n1=89;
-    int n2=067;
-    int n3=0x99;
-    printf("%d %i %o %x\n",n1,n1,n1,n1);
-    printf("%d %i %o %x\n",n2,n2,n2,n2);
-    printf("%d %i %o %x\n",n3,n3,n3,n3);
+    int inputNumber;
+    puts("Enter a number to print its Multiplication table: ");
+    scanf("%d", &inputNumber);
+    printf("Multiplication table of %d:\n", inputNumber);
+    for (int i = 1; i <= 20; i++)
+     {
+        printf("%d x %2d = %3d\n", inputNumber, i, inputNumber * i);
+     }
 
 }
